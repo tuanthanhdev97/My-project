@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:duration="500"
+        android:drawable="@drawable/ca6_01"/>
+
+
+    <item
+        android:duration="500"
+        android:drawable="@drawable/ca6_02"/>
+
+    <item
+        android:duration="500"
+        android:drawable="@drawable/ca6_03"/>
+
+    <item
+        android:duration="500"
+        android:drawable="@drawable/ca6_04"/>
+
+    <item
+        android:duration="500"
+        android:drawable="@drawable/ca6_05"/>
+
+    <item
+        android:duration="500"
+        android:drawable="@drawable/ca6_06"/>
+
+</animation-list>

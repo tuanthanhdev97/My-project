@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Transparent Screen</string>
+    <string name="Start" translatable="true">開始</string>
+    <string name="boy_on_screen" translatable="true">タートル効果</string>
+    <string name="laser" translatable="true">レーザ</string>
+    <string name="orientation" translatable="true">オリエンテーション :</string>
+    <string name="off_turle" translatable="true">タートル通知をタップしてエフェクトをオフにします</string>
+    <string name="show_turle" translatable="true">カメを見る</string>
+</resources>

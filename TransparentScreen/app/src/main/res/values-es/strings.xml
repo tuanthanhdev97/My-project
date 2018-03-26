@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Transparent Screen</string>
+    <string name="Start" translatable="true">comienzo</string>
+    <string name="boy_on_screen" translatable="true">Efecto tortuga</string>
+    <string name="laser" translatable="true">Láser</string>
+    <string name="orientation" translatable="true">Orientación :</string>
+    <string name="off_turle" translatable="true">Toca la notificación de tortuga para desactivar el efecto</string>
+    <string name="show_turle" translatable="true">Mostrar tortuga</string>
+</resources>

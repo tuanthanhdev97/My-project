@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Transparent Screen</string>
+    <string name="Start" translatable="true">Bắt đầu</string>
+    <string name="boy_on_screen" translatable="true">Hiệu ứng rùa</string>
+    <string name="laser" translatable="true">Tia chớp</string>
+    <string name="orientation" translatable="true">Chiều hướng :</string>
+    <string name="off_turle" translatable="true">Chạm vào Thông báo Rùa để tắt hiệu ứng</string>
+    <string name="show_turle" translatable="true">Bật</string>
+</resources>

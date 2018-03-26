@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Transparent Screen</string>
+    <string name="decreptions">Transparent Screen</string>
+    <string name="_lease_open_permissions">Please open permissions</string>
+    <string name="choose_wallpaper" translatable="true">Choose wallpaper</string>
+    <string name="Start" translatable="true">Start</string>
+    <string name="boy_on_screen" translatable="true">Turtle effect</string>
+    <string name="laser" translatable="true">Laser</string>
+    <string name="orientation" translatable="true">Orientation :</string>
+    <string name="off_turle" translatable="true">Touch the Turtle Notification to turn off the effect</string>
+    <string name="show_turle" translatable="true">Show turtle</string>
+</resources>

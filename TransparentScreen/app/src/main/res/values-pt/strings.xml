@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Transparent Screen</string>
+    <string name="Start" translatable="true">Começar</string>
+    <string name="boy_on_screen" translatable="true">Efeito tartaruga</string>
+    <string name="laser" translatable="true">Laser</string>
+    <string name="orientation" translatable="true">Orientação :</string>
+    <string name="off_turle" translatable="true">Toque a Notificação Turtle para desativar o efeito</string>
+    <string name="show_turle" translatable="true">Mostrar tartaruga</string>
+</resources>

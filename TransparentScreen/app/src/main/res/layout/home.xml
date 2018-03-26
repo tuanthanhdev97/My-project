@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="179dp"
+    android:layout_height="241dp"
+    tools:context="transparentscreen.skyfree.com.transparentscreen.com.skyfree.transparentscreen.activity.AnimationActivity">
+
+    <ImageView
+        android:id="@+id/imageview_animation_list_filling"
+        android:layout_width="179dp"
+        android:layout_height="241dp"
+        android:background="@drawable/run_animation" ></ImageView>
+
+</LinearLayout>

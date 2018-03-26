@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="transparentscreen.skyfree.com.transparentscreen">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-feature
+        android:name="android.software.live_wallpaper"
+        android:required="true"></uses-feature>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_transparen"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.skyfree.transparentscreen.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.skyfree.transparentscreen.activity.AnimationActivity" />
+        <receiver
+            android:name="com.skyfree.transparentscreen.service.Tatservice"
+            android:enabled="true"
+            android:process=":remote" />
+        <service  android:name="com.skyfree.transparentscreen.service.AnimationService"></service>
+
+        <service
+            android:name="com.skyfree.transparentscreen.service.CameraLiveWallpaper"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/livewallpaper" />
+        </service>
+    </application>
+
+</manifest>

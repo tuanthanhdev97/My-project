@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Transparent Screen</string>
+    <string name="Start" translatable="true">เริ่มต้น</string>
+    <string name="boy_on_screen" translatable="true">ผลเต่า</string>
+    <string name="laser" translatable="true">เลเซอร์</string>
+    <string name="orientation" translatable="true">ปฐมนิเทศ :</string>
+    <string name="off_turle" translatable="true">แตะการแจ้ง Turtle เพื่อปิดผล</string>
+    <string name="show_turle" translatable="true">แสดงเต่า</string>
+</resources>
